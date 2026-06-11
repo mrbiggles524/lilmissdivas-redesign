@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lil Miss Divas — Pink, sparkly mobile spa parties for girls ages 3–15. We come to you!" />
+  <title>Lil Miss Divas · Sparkle Edition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,9..18,500;0,9..18,600;0,9..18,700;1,9..18,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#">
+        <span class="brand__icon" aria-hidden="true">✦</span>
+        <span class="brand__name">Lil Miss Divas</span>
+      </a>
+      <button class="menu-btn" aria-label="Menu" aria-expanded="false">
+        <i></i><i></i>
+      </button>
+      <nav class="menu">
+        <a href="#story">Story</a>
+        <a href="#glow">Glow Ups</a>
+        <a href="#services">Services</a>
+        <a href="#plans">Packages</a>
+        <a href="#book">Book</a>
+      </nav>
+      <a class="topbar__call" href="tel:3476788100">Call Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="pill">Mobile Spa Parties · Oceanside, NY</p>
+          <h1>Every party deserves a little <em>sparkle</em></h1>
+          <p class="lede">We roll in with the robes, the lights, the gloss — and leave your divas glowing. Ages 3–15 across NYC, Nassau, Suffolk & Westchester.</p>
+          <div class="hero__cta">
+            <a class="btn btn--fill" href="#book">Book a Party</a>
+            <a class="btn btn--line" href="#glow">See Glow Ups</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__photo hero__photo--main">
+            <img src="https://images.unsplash.com/photo-1516975080674-ed2fc6a13783?w=640&h=800&fit=crop&q=80" alt="Girls at a spa party" width="640" height="800" loading="eager" />
+          </div>
+          <div class="hero__photo hero__photo--sub">
+            <img src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=400&h=500&fit=crop&q=80" alt="Pink party decor" width="400" height="500" loading="lazy" />
+          </div>
+          <div class="hero__badge">
+            <strong>We Come</strong>
+            <span>To You</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="wrap strip__grid">
+        <div><strong>3–15</strong><span>Ages</span></div>
+        <div><strong>Full Setup</strong><span>Included</span></div>
+        <div><strong>2+ Hosts</strong><span>Every party</span></div>
+        <div><strong>8–9pm</strong><span>7 days a week</span></div>
+      </div>
+    </section>
+
+    <section class="block" id="story">
+      <div class="wrap split">
+        <div class="split__copy">
+          <p class="label">Our Story</p>
+          <h2>Long Island's pinkest pamper crew</h2>
+          <p>Lil Miss Divas brings boutique spa energy to your living room, backyard, or venue. Manicures, makeovers, facials, glitter tattoos — every detail is age-appropriate, photo-ready, and packed with giggles.</p>
+          <p>From princess birthdays to teen glow-ups and Girl Scout troops, we handle setup, hosting, and breakdown so you can enjoy the magic.</p>
+          <ul class="ticks">
+            <li>NYC + Nassau + Suffolk + Westchester</li>
+            <li>Pink silk robes &amp; marquee lights</li>
+            <li>Custom invitations &amp; birthday gift</li>
+          </ul>
+        </div>
+        <div class="split__media mosaic">
+          <img src="https://images.unsplash.com/photo-1522335781262-7880d0fa4a82?w=500&h=600&fit=crop&q=80" alt="Manicure station" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1604654899620-865cde5eecfe?w=500&h=600&fit=crop&q=80" alt="Party decorations" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--blush" id="glow">
+      <div class="wrap">
+        <header class="head head--center">
+          <p class="label">Before &amp; After</p>
+          <h2>Room glow-ups &amp; diva transformations</h2>
+          <p class="sub">Drag the handle to reveal the sparkle. Replace demo photos with your real party shots.</p>
+        </header>
+
+        <div class="tabs" role="tablist">
+          <button class="tabs__btn is-active" role="tab" aria-selected="true" data-tab="rooms">Room Makeovers</button>
+          <button class="tabs__btn" role="tab" aria-selected="false" data-tab="divas">Diva Glow Ups</button>
+        </div>
+
+        <div class="tab-panel is-active" id="tab-rooms" role="tabpanel">
+          <div class="compare-row">
+            <article class="compare" data-compare>
+              <div class="compare__frame">
+                <img class="compare__after" src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=800&h=520&fit=crop&q=80" alt="After party room" loading="lazy" />
+                <div class="compare__clip"><img class="compare__before" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=520&fit=crop&q=80" alt="Before plain room" loading="lazy" /></div>
+                <input type="range" class="compare__range" min="0" max="100" value="52" aria-label="Room transformation slider" />
+                <div class="compare__knob" aria-hidden="true"></div>
+              </div>
+              <h3>Living room → Spa lounge</h3>
+            </article>
+            <article class="compare" data-compare>
+              <div class="compare__frame">
+                <img class="compare__after" src="https://images.unsplash.com/photo-1527529482834-994687717bb1?w=800&h=520&fit=crop&q=80" alt="After glam table" loading="lazy" />
+                <div class="compare__clip"><img class="compare__before" src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&h=520&fit=crop&q=80" alt="Before plain table" loading="lazy" /></div>
+                <input type="range" class="compare__range" min="0" max="100" value="52" aria-label="Table transformation slider" />
+                <div class="compare__knob" aria-hidden="true"></div>
+              </div>
+              <h3>Table → Glam station</h3>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-divas" role="tabpanel" hidden>
+          <div class="compare-row compare-row--tall">
+            <article class="compare compare--tall" data-compare>
+              <div class="compare__frame">
+                <img class="compare__after" src="https://images.unsplash.com/photo-1596462502278-27bfdd403348?w=600&h=780&fit=crop&q=80" alt="After makeover" loading="lazy" />
+                <div class="compare__clip"><img class="compare__before" src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=780&fit=crop&q=80" alt="Before casual" loading="lazy" /></div>
+                <input type="range" class="compare__range" min="0" max="100" value="52" aria-label="Birthday girl glow up" />
+                <div class="compare__knob" aria-hidden="true"></div>
+              </div>
+              <h3>Birthday girl glow</h3>
+            </article>
+            <article class="compare compare--tall" data-compare>
+              <div class="compare__frame">
+                <img class="compare__after" src="https://images.unsplash.com/photo-1516975080674-ed2fc6a13783?w=600&h=780&fit=crop&q=80" alt="After spa facial" loading="lazy" />
+                <div class="compare__clip"><img class="compare__before" src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=600&h=780&fit=crop&q=80" alt="Before spa" loading="lazy" /></div>
+                <input type="range" class="compare__range" min="0" max="100" value="52" aria-label="Spa facial glow up" />
+                <div class="compare__knob" aria-hidden="true"></div>
+              </div>
+              <h3>Spa facial pamper</h3>
+            </article>
+            <article class="compare compare--tall" data-compare>
+              <div class="compare__frame">
+                <img class="compare__after" src="https://images.unsplash.com/photo-1522335781262-7880d0fa4a82?w=600&h=780&fit=crop&q=80" alt="After manicure" loading="lazy" />
+                <div class="compare__clip"><img class="compare__before" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&h=780&fit=crop&q=80" alt="Before manicure" loading="lazy" /></div>
+                <input type="range" class="compare__range" min="0" max="100" value="52" aria-label="Manicure glow up" />
+                <div class="compare__knob" aria-hidden="true"></div>
+              </div>
+              <h3>Sparkling mani</h3>
+            </article>
+          </div>
+        </div>
+
+        <div class="gallery-scroll">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=320&h=320&fit=crop&q=80" alt="" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=320&h=320&fit=crop&q=80" alt="" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1559591935-16e4662b2b55?w=320&h=320&fit=crop&q=80" alt="" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=320&h=320&fit=crop&q=80" alt="" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1537633552985-df8429e8046b?w=320&h=320&fit=crop&q=80" alt="" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="services">
+      <div class="wrap">
+        <header class="head">
+          <p class="label">What We Do</p>
+          <h2>Pamper menu</h2>
+        </header>
+        <div class="cards cards--6">
+          <article class="card"><span>01</span><h3>Manicures</h3><p>Strawberry lotion &amp; sparkly polish.</p></article>
+          <article class="card"><span>02</span><h3>Pedicures</h3><p>Foot bath with fizzy bath bombs.</p></article>
+          <article class="card"><span>03</span><h3>Facials</h3><p>Masks &amp; cucumber eye soothers.</p></article>
+          <article class="card"><span>04</span><h3>Makeovers</h3><p>Shimmer, gloss &amp; eye gems.</p></article>
+          <article class="card"><span>05</span><h3>Glitter Tattoos</h3><p>Waterproof sparkle up to 5 days.</p></article>
+          <article class="card"><span>06</span><h3>DIY Bars</h3><p>Lip gloss, scrubs &amp; lotion making.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--soft" id="plans">
+      <div class="wrap">
+        <header class="head head--center">
+          <p class="label">Packages</p>
+          <h2>Pick your level of glam</h2>
+        </header>
+        <div class="plans">
+          <article class="plan">
+            <p class="plan__tag">Essential</p>
+            <h3>Glitzy Girl</h3>
+            <p class="plan__meta">1.5 hrs · 2+ hostesses</p>
+            <ul>
+              <li>Mini manicures + strawberry lotion</li>
+              <li>Makeup or spa pedicure</li>
+              <li>Hair dusting &amp; spa robes</li>
+              <li>Games, lights &amp; invitations</li>
+            </ul>
+            <a class="btn btn--fill btn--wide" href="#book">Reserve</a>
+          </article>
+          <article class="plan plan--star">
+            <p class="plan__tag">Popular</p>
+            <h3>La Diva</h3>
+            <p class="plan__meta">Full pampering · teen favorite</p>
+            <ul>
+              <li>Facials with silicone applicator</li>
+              <li>Vanity mirrors &amp; headbands</li>
+              <li>Shimmer makeup &amp; table decor</li>
+              <li>Deluxe birthday gift</li>
+            </ul>
+            <a class="btn btn--fill btn--wide" href="#book">Reserve</a>
+          </article>
+          <article class="plan">
+            <p class="plan__tag">Ultimate</p>
+            <h3>Diamond Diva</h3>
+            <p class="plan__meta">1.5 hrs · karaoke add-on</p>
+            <ul>
+              <li>DIY lip gloss to take home</li>
+              <li>Friendship bracelet bar</li>
+              <li>Sparkling manis + rings</li>
+              <li>Fully customizable</li>
+            </ul>
+            <a class="btn btn--fill btn--wide" href="#book">Reserve</a>
+          </article>
+        </div>
+        <p class="fine">Girl Scout discounts available · Patch Party &amp; Slime packages coming soon</p>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="wrap quote__inner">
+        <blockquote>
+          <p>"22 kids and every single one had the best time. The staff was incredible — we can't stop hearing about the lip gloss station!"</p>
+          <footer>— Lauren R., Woodbury NY</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="block" id="book">
+      <div class="wrap book">
+        <div class="book__info">
+          <p class="label">Book Now</p>
+          <h2>Let's plan something pink &amp; perfect</h2>
+          <a class="book__phone" href="tel:3476788100">(347) 678-8100</a>
+          <p>Monday – Sunday · 8am – 9pm</p>
+        </div>
+        <form class="book__form" id="form">
+          <div class="row">
+            <label>Name<input name="name" required /></label>
+            <label>Email<input type="email" name="email" required /></label>
+          </div>
+          <div class="row">
+            <label>Phone<input type="tel" name="phone" /></label>
+            <label>Best time<input name="best_time" placeholder="Evenings" /></label>
+          </div>
+          <label>Message<textarea name="message" rows="4" required placeholder="Date, guest count, package..."></textarea></label>
+          <button class="btn btn--fill btn--wide" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <p class="foot__brand">✦ Lil Miss Divas · Oceanside, NY</p>
+      <nav class="foot__nav">
+        <a href="../">Classic</a>
+        <a href="../v2/">Fancy V2</a>
+        <a href="#book">Contact</a>
+      </nav>
+      <p class="foot__copy">© 2026 Lil Miss Divas</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
